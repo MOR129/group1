@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formation en ligne</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+</head>
+<body>
+<!-- Non du site -->
+    <header>
+        <div id="contologo">
+            <span class="logo" style="color: rgb(0, 255, 13);" size="30 px"> MON</span>
+            <span class="logo" style="color: rgba(241, 8, 8, 0.61);" size="30 px">ECOLE</span>
+
+        </div>
+        <!-- barre de navigation -->
+        <nav>
+            
+            <div class="menu-bar" id="Acceuil">
+            <ul class="navbar">
+               <li class="active"><a href="#Acceuil">Acceuil</a></li>
+                <li><a href="#Détail">Détail</a></li>
+                <li><a href="#about">A propos</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <li><a href="#Connexion">Connexion</a></li>
+            </li>
+            </ul>
+        </div>
+        </nav>
+    </header>
+
+<!-- message de Bienvenue -->
+    <main>
+        <section id="welcome">
+            
+            <h1>Bienvenue sur notre plateforme de cours en ligne</h1>
+
+
+
+            
+            <br>
+            <p>
+                Nous proposons une variété de cours pour vous aider à déveloper<br>
+                 vosc compétences et atteindre vos objectifs. 
+                 Explorez notre offre et trouvez le cours qui  vous convient le mieux. 
+                
+            </p>
+        </section>
+     
+         <!-- detail des cours  -->
+        <section class="courses" id="Détail">
+            <h2 style="background-color: rgb(0, 255, 242); width: 300px ; height: 5vh;">Nos cours disponibles</h2> 
+            <br> 
+            
+              
+              
+            <div class="course1" >
+
+                <br>
+                <br>
+                <h3>Dévelopement</h3>
+                
+                
+            </div>
+            <div class="course2">
+                <br>
+                <h3>programation</h3>
+                
+
+            </div>
+            <div class="course3">
+                <br>
+                <h3>info-graphique</h3>
+                
+            </div>
+            <div class="course4">
+                <br>
+                <h3>matematique</h3>
+                
+            </div> 
+            
+
+        
+            
+        </section>
+    </main>
+         <!-- detail cours Dévelopement web -->
+    <br>
+    <main>
+        <section class="course-detail">
+            
+            
+            <h1>Dévelopement Web </h1>
+
+
+            
+
+
+            <br>
+
+             <div class="Module">
+                   <h2><a href="detail5.html">Module du cours</a></h2>
+                   <br>
+                 <ul>
+                    <br>
+                    <li><h3>Module 1: INTRODUCTIPON HTML</h3></li>
+                    <br>
+                    <li><h3>Module 2: EXEMPLE HTml AVEC CSS</h2></li>
+                    <br>
+                    <li><h3>Module 3: JAVASCRIPTY POUR LES INTRODUCTION</h3></li>
+                    <br>
+                    
+                    <li><H3>Module 4: pratique et exrecice </H3></li>
+                 </ul>
+                </div>
+                
+        </section>
+    </main>
+            
+      <!-- page A-propos -->
+    <main>
+        <section class="about-site" id="about">
+            <br>
+            <h3><a href="A-propos.html">A-propos Nous</a></h3>
+            <div class="site-info">
+                <br>
+                
+                
+                
+            </div>
+            <div class="team">
+                <h1><a href="A-propos.html">Notre équipe</a></h1>
+                <p>
+                    
+                </p>
+            </div>
+            <div class="Mission-valeur">
+                <h1><a href="A-propos.html">Mission et valeur</a></h1>
+                <p>
+                    
+                </p>
+
+            </div>
+        </section>
+    </main>
+    <br>
+
+    <!-- page de Contact -->
+
+    <br>
+    <main>
+        <section class="Contact" id="Contact">
+            <h1 style="background-color: rgb(41, 3, 212);">Contact-Nous</h1>
+            <form action="submit_form.php" method="post">
+                <div class="form_group">
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" name="name"required>
+                </div>
+                <div class="form_group">
+                    <label for="prenom">prenom</label>
+                    <input type="prenom" id="prenom" name="prenom"required>
+                </div>
+                <div class="form_group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email"required>
+                </div>
+                <div class="form_group">
+                    <label for="Sujet"> Sujet</label>
+                    <input type="text" id="subact" name="subact" required>
+                </div>
+                <div class="form_group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5"required></textarea>
+                </div>
+                <button type="submit"><h2>Envoyer</h2></button>
+            </form>
+            <div class="content-info">
+                <h2>information de Contact</h2><br>
+                <p>Email: Contact@monsite.com</p><br>
+                <p>Téléphone: 78-276-89-64</p><br>
+                <P>Adresse: louga-senegale</P>
+
+            </div>
+
+        </section>
+    </main>
+
+    <br>
+       <!-- page de Connexion  -->
+    <br>
+    
+    <main>
+        <section class="login-section" id="Connexion" >
+            <h1 style="background-color: rgb(41, 3, 212);">Connexion</h1>
+            <form action="ligin_process.php" method="post">
+                <div class="form_group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email"required>
+                </div>
+                <div class="form_group">
+                    <label for="password">Mot de passe</label>
+                    <input type="password" id="password" name="password"required>
+                </div>
+                <button type="submit">Se connecter </button>
+
+            </form><br>
+            <p>pas encore de compte ?<a href="creer-compte.html">Créez en un ici</a></p>
+
+        </section>
+    </main>
+
+
+    
+    
+    
+    
+    
+    
+    <p> <h3>&copy;2024 plateforme de formation cours en ligne </h3></p>
+</footer>
+
+<br>
+  
+
+    
+</body>
+</html>

@@ -1,0 +1,400 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+:root{
+    --bg-color: #ffffff;
+    --text-color: #22100d;
+    --second-colcr: #685f78;
+    --main-color: 3.8rem;
+    --big-font: 2.6rem;
+    --P-font:1.1rem;
+}
+.body{
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+.header
+{
+    position: fixed;
+    width: 100%;
+    background-image: url(image/istockphoto-1390209564-1024x1024.jpg);
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+    
+.navbar{
+
+    background: rgb(7, 7, 7);
+    text-align: center;
+}
+.navbar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+
+}
+.navbar ul li{
+    display: inline-block;
+    line-height: 80%;
+    width: 120px;
+    margin: 15px;
+    padding: 15PX;
+}
+.menu-bar
+{
+    
+    background: rgb(17, 17, 17);
+    text-align: center;
+}
+.menu-bar ul
+
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+
+}
+.menu-bar ul li{
+    display: inline-block;
+    line-height: 80%;
+    width: 120px;
+    margin: 15px;
+    padding: 15PX;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.active, .menu-bar ul li:hover
+{
+    background: #9b1d07;
+    border-radius: 15px;
+}
+.main
+{
+    padding: 2rem;
+}
+#welcome
+{
+    height: 80vh;
+    background-color: #9b1d07;
+    text-align: center;
+    background: url(image/istockphoto-1390209564-1024x1024.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 3rem;
+}
+.courses h2
+{
+  text-align: center;
+}
+.course1
+{
+   margin: 3%;
+   padding: 2px;
+   text-align: center;
+   
+}
+.course2 
+{
+    margin: 3%;
+    padding: 2px;
+    text-align: center;
+}
+.course3 
+{
+    margin: 3%;
+    padding: 2px;
+    text-align: center;
+}
+.course4 
+{
+    margin: 3%;
+    padding: 2px;
+    text-align: center;
+}
+
+.course h3 a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.footer
+{
+    background-color: #fff;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.course-detail
+{
+    margin: 3%;
+    padding: 2px;
+    text-align: center;
+    color: gold;
+    
+}
+.course-detail h1
+{
+    text-align: center;
+}
+.course-detail .discription
+.course-detail  .Module
+{
+    margin: 20px;
+}
+.course-detail  .Module ul
+{
+    list-style: disc;
+    padding-left: 20px;
+}
+.main
+{
+    padding: 20px;
+} 
+.about-site h3
+{
+    text-align: center;
+    
+}
+.site-info, .team, .Mission-valeur
+{
+    margin: 20px;
+}
+.site-info h2,.team h2, .Mission-valeur h2
+{
+    color: #cc0303e5;
+    
+}
+.main
+{
+    padding: 20px;
+
+}
+.Contact h1
+{
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    height: 5vh;
+    background-color: #9b1d07;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.Contact form
+{
+    max-width: 500px;
+    margin: 0 auto;
+    height: 70vh;
+    background: url(image/about-us-page-1-1024x512.png);
+
+    margin-bottom: 2rem;
+}
+.form_group label
+{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form_group input, .form_group textarea
+{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccccccf8;
+    border-radius: 4px;
+
+}
+.button
+{
+    background-color: #db0909;
+    color: wheat;
+    border: none;
+    padding: 100X 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.button:hover
+{
+    background-color: #d40d0d;
+
+}
+.content-info
+{
+    margin-top: 30px;
+
+}
+.content-info h2
+{
+    color: #d10202;
+}
+.main
+{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+
+}
+.login-section
+{
+    max-width: 500px;
+    margin: 0 auto;
+    height: 40vh;
+    background: url(image/about-us-page-1-1024x512.png);
+
+    margin-bottom: 2rem;
+}
+.form_grou
+{
+    margin-bottom: 15px;
+    width: 400px;
+}
+
+.form_group label 
+
+{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    
+}
+.form_group input 
+{
+    width: 100%;
+    padding: 10px;
+    border: 3px solid rgb(42, 2, 153);
+    border-radius: 50px;
+
+}
+.button
+{
+    background-color: #d10202;
+    color: wheat;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+.button:hover
+{
+    background-color: #d10202;
+
+}
+.p
+{
+    text-align: center;
+}
+.p a
+{
+    color: #d10202;
+    text-decoration: none;
+    font-weight: bold;
+}
+.p a:hover
+{
+    text-decoration: underline;
+
+}
+.ligin_process
+{
+    text-align: center;
+    color: #d31d05b9;
+}
+.courses
+{
+    display: flex;
+}
+.course-detail
+{
+    background: url(image/sdd.jpg);
+    background-image: url(image/dakar.png);
+}
+.team
+{
+    text-align: center;
+}
+.Mission-valeur
+{
+    text-align: center;
+}
+.login-section h1
+{
+    text-align: center;
+}
+.course-detail
+{
+    max-width: 1500px;
+    margin: 9 auto;
+    height: 90vh;
+    background-color: #9b1d07;
+    background: url(image/istockphoto-1390209564-1024x1024.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10rem;   
+}
+.course1
+{
+    max-width: 400px;
+    margin: 0 auto;
+    height: 18vh;
+    background-color: #9b1d07;
+    background: url(image/istockphoto-1438101320-1024x1024.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5rem;   
+}
+.course2
+{
+    max-width: 400px;
+    margin: 0 auto;
+    height: 18vh;
+    background-color: #9b1d07;
+    background: url(image/istockphoto-1438101320-1024x1024.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5rem;   
+}
+/*bb*/
+.course3
+{
+    max-width: 400px;
+    margin: 0 auto;
+    height: 18vh;
+    background-color: #9b1d07;
+    background: url(image/istockphoto-1438101320-1024x1024.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5rem;   
+}
+.course4
+{
+    max-width: 400px;
+    margin: 0 auto;
+    height: 18vh;
+    background-color: #9b1d07;
+    background: url(image/istockphoto-1438101320-1024x1024.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5rem;    
+}
+
